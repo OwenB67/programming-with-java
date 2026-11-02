@@ -19,19 +19,33 @@ public class App {
        // System.out.println(i + j);
            // }
 
-    Scanner scanner = new Scanner(System.in);
+        // Scanner scanner = new Scanner(System.in);
 
-    System.out.println("name: ");
-    String name = scanner.nextLine();
-    System.out.println(name);
+        // System.out.println("name: ");
+        // String name = scanner.nextLine();
+        // System.out.println(name);
 
-    System.out.println("age: ");
-    int age = scanner.nextInt();
-    System.out.println(age); 
+        // System.out.println("age: ");
+        // int age = scanner.nextInt();
+        // System.out.println(age); 
 
-    System.out.println("score: ");
-    double score = scanner.nextDouble(); 
-    System.out.println(score);
+        // System.out.println("score: ");
+        // double score = scanner.nextDouble(); 
+        // System.out.println(score);
+
+        // scanner.nextLine(); // consume the leftover newline character
+
+        // System.out.println("enter another string: ");
+        // String newString = scanner.nextLine();
+
+        // System.out.println("hello " + name + ", you are " + age + " years old and your score is " + score + " ");
+
+        // scanner.close();
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your age: ");
+        int age = Integer.parseInt(scanner.nextLine().trim());
+        System.out.println(age);
 
     }
 }
