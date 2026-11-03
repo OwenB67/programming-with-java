@@ -1,4 +1,4 @@
-package com.Aintro;
+package labs.lessons.Aintro;
 
 /**
  * Hello world!
